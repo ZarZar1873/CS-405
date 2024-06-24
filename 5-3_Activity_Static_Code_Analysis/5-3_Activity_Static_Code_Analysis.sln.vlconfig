@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Solution ProductName="Visual Lint Enterprise Edition (trial)" ProductVersion="8.0">
+	<AnalysisConfiguration>
+		<AnalysisToolName Source="Default"/>
+		<AnalysisToolFolder Source="Default"/>
+		<AnalysisToolPathName Source="Default"/>
+		<Configuration Source="Default"/>
+		<AnalysisMethod Source="Default"/>
+		<AdditionalParameters Source="Default"/>
+		<AnalysisPostProcessor Enable="0" FileName=""/>
+		<AnalysisTools/>
+		<Reports>
+			<Location Source="Default"/>
+		</Reports>
+	</AnalysisConfiguration>
+	<Projects>
+		<Project Name="5-3_Activity_Static_Code_Analysis" Analyse="1">
+			<AnalysisConfiguration>
+				<AnalysisToolFolder Source="Default"/>
+				<AnalysisToolPathName Source="Default"/>
+				<AnalysisMethod Source="Default"/>
+				<AdditionalParameters Source="Default"/>
+				<AnalysisTools>
+					<AnalysisTool Name="PC-lint/PC-lint Plus">
+						<Property Name="UseGeneratedIndirectFiles" Value="1"/>
+					</AnalysisTool>
+				</AnalysisTools>
+			</AnalysisConfiguration>
+			<Files/>
+		</Project>
+	</Projects>
+</Solution>
